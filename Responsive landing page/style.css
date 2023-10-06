@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.conatiner{
+    background-color: antiquewhite;
+}
+
+.navbar{
+    display: flex;
+    height: 64px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+ 
+
+.navbar li a{
+    color: white;
+    list-style: none;
+    margin: 0 12px;
+}
+
+.nav li a:hover {
+    color: gray;
+}   
+
+.logo{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+.left{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+    margin-top: 208px;
+    margin-bottom: 0px;
+    margin-left: 82px;
+    margin-right: 0px;
+    color: white;
+}
+
+.sub{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+    margin-top: 46px;
+    margin-bottom: 0px;
+    margin-left: 248px;
+    margin-right: 0px;
+}
+
+.section1{
+    height: 50vh;
+}
+
+.foot{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+    color: white;
+
+}
+
+.min-h-screen{
+    min-height: 100vh;
+}
+
+min-f-screen{
+    min-height: 10vh;
+
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+     display: flex;
+}
+
+.items-center{
+align-items: center;
+}
+
+.justify-between{
+    justify-content: space-around;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.bg-color{
+    background-color: rgb(153, 157, 161);
+}
+
+.p1{
+    margin-left: 90px;
+    margin-bottom: 82px;
+}
+
+.pi a:hover{
+    color: grey;
+}
+
+.p2{
+    margin-left: 190px;
+    margin-bottom: 82px;
+}
+
+.overlay{
+    height: 325px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.img2{
+    margin-left: 150px;
+}
+.img3{
+    margin-left: 150px;
+
+}
+.img4{
+    margin-left: 150px;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #aeb3b9; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+
+  button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
